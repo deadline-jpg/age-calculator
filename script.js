@@ -31,8 +31,9 @@ function commit() {
   }
 
   const dob = new Date(year.value, month.value, day.value);
+  console.log(dob);
   const age = dateToday - dob;
-  const yearsOld = age / 31536000000;
+  const yearsOld = age / 31557600000;
   const monthsOld = (yearsOld - Math.floor(yearsOld)) * 12;
   const daysOld = (monthsOld - Math.floor(monthsOld)) * 30;
 
