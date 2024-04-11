@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color--primary: #864cff;
+  --color--secondary: #efefef;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 14px;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 60%;
+  height: 45vh;
+  margin: 0 auto;
+  margin-top: 25vh;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px 5px 100px 5px;
+}
+
+/* Input Box Styles */
+
+.button-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.button-box label {
+  display: block;
+  font-size: 0.8rem;
+}
+
+.button-box input {
+  width: 100px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 15px 7px;
+  margin-top: 5px;
+  border: 1px solid var(--color--secondary);
+  border-radius: 7px;
+}
+
+.commit-box {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.commit-box #horizontal-line {
+  width: 95%;
+  height: 2px;
+  background-color: var(--color--secondary);
+}
+
+.commit-box button {
+  border-radius: 50%;
+  border: none;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  background-color: var(--color--primary);
+}
+
+.commit-box span {
+  font-size: 2rem;
+  color: white;
+}
+
