@@ -23,7 +23,7 @@ h2 {
 .container {
   width: 60%;
   max-width: 500px;
-  height: 58vh;
+  min-height: 500px;
   margin: 0 auto;
   margin-top: 25vh;
   background-color: white;
